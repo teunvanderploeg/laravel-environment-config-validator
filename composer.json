@@ -1,0 +1,51 @@
+{
+    "name": "vrijdag/laravel-environment-config-validator",
+    "description": "Validate Laravel environment variables against configurable rules.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "environment",
+        "env",
+        "validator",
+        "configuration"
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/console": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/validation": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^10.5|^11.0",
+        "laravel/pint": "^1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vrijdag\\LaravelEnvironmentConfigValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vrijdag\\LaravelEnvironmentConfigValidator\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vrijdag\\LaravelEnvironmentConfigValidator\\EnvValidatorServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:coverage": "phpunit --coverage-text",
+        "format": "pint"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
