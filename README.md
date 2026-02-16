@@ -5,7 +5,7 @@ Validate Laravel environment variables against rules you define in config.
 ## Installation
 
 ```bash
-composer require vrijdag/laravel-environment-config-validator
+composer require teun/laravel-environment-config-validator
 ```
 
 Publish the config file:

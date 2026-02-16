@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Vrijdag\LaravelEnvironmentConfigValidator\Tests;
+namespace Teun\LaravelEnvironmentConfigValidator\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Vrijdag\LaravelEnvironmentConfigValidator\EnvValidatorServiceProvider;
+use Teun\LaravelEnvironmentConfigValidator\EnvValidatorServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

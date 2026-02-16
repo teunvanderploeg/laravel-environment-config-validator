@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Vrijdag\LaravelEnvironmentConfigValidator\Tests\Feature;
+namespace Teun\LaravelEnvironmentConfigValidator\Tests\Feature;
 
 use Illuminate\Support\Facades\Artisan;
-use Vrijdag\LaravelEnvironmentConfigValidator\Tests\TestCase;
+use Teun\LaravelEnvironmentConfigValidator\Tests\TestCase;
 
 class ValidateEnvCommandTest extends TestCase
 {

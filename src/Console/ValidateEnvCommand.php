@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Vrijdag\LaravelEnvironmentConfigValidator\Console;
+namespace Teun\LaravelEnvironmentConfigValidator\Console;
 
 use Illuminate\Console\Command;
 use InvalidArgumentException;
-use Vrijdag\LaravelEnvironmentConfigValidator\Support\EnvironmentValidator;
+use Teun\LaravelEnvironmentConfigValidator\Support\EnvironmentValidator;
 
 class ValidateEnvCommand extends Command
 {

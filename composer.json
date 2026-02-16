@@ -1,5 +1,5 @@
 {
-    "name": "vrijdag/laravel-environment-config-validator",
+    "name": "teun/laravel-environment-config-validator",
     "description": "Validate Laravel environment variables against configurable rules.",
     "type": "library",
     "license": "MIT",
@@ -23,18 +23,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Vrijdag\\LaravelEnvironmentConfigValidator\\": "src/"
+            "Teun\\LaravelEnvironmentConfigValidator\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vrijdag\\LaravelEnvironmentConfigValidator\\Tests\\": "tests/"
+            "Teun\\LaravelEnvironmentConfigValidator\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vrijdag\\LaravelEnvironmentConfigValidator\\EnvValidatorServiceProvider"
+                "Teun\\LaravelEnvironmentConfigValidator\\EnvValidatorServiceProvider"
             ]
         }
     },

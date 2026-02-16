@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Vrijdag\LaravelEnvironmentConfigValidator\Support;
+namespace Teun\LaravelEnvironmentConfigValidator\Support;
 
 use Illuminate\Contracts\Validation\Factory as ValidationFactory;
 use Illuminate\Support\Str;

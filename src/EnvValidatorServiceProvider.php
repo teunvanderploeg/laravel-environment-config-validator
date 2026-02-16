@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Vrijdag\LaravelEnvironmentConfigValidator;
+namespace Teun\LaravelEnvironmentConfigValidator;
 
 use Illuminate\Support\ServiceProvider;
-use Vrijdag\LaravelEnvironmentConfigValidator\Console\ValidateEnvCommand;
+use Teun\LaravelEnvironmentConfigValidator\Console\ValidateEnvCommand;
 
 class EnvValidatorServiceProvider extends ServiceProvider
 {
